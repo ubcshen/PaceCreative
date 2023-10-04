@@ -1,5 +1,5 @@
 function add_fb_linkedin_social_sharing_links_after_title($title) {
-    if (is_single()) { 
+    if (is_singular('post')) { 
         $post_permalink = get_permalink(); 
         $post_title = get_the_title(); 
 
